@@ -64,9 +64,17 @@ nav {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content:space-between;
     background-color: #ffffff;
     border-bottom: 1px solid var(--main-clr);
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    
+    color: var(--main-clr);
+    background-color: var(--bkg-clr);
 }
 
 .nav-btn-container {
@@ -134,6 +142,6 @@ footer {
 }
 
 .footer-copyright {
-    font-weight: 600;
+    font-weight: 500;
     color: white;
 }
