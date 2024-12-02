@@ -77,6 +77,10 @@ nav {
     background-color: var(--bkg-clr);
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .nav-btn-container {
     display: flex;
     gap: 24px;
@@ -147,12 +151,16 @@ footer {
 }
 
 
-
-
 /* Media Queries */
-
-
-
-
+@media screen and (max-width: 780px) {
+    .nav-btn-container {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+        padding: 0.75rem 1rem;
+        outline: 1px solid #2d2d2d;
+    }
+}
 
 
